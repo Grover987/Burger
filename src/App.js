@@ -67,7 +67,9 @@ function App() {
 
   const handleClick = productId => {
     const findedProduct = products.find(element => element.id === productId)
-    setCurrentSale([...currentSale, findedProduct])
+    if (currentSale.includes(findedProduct) === false) {
+      setCurrentSale([...currentSale, findedProduct])
+    }
   }
 
   const attValue = () => {
