@@ -1,0 +1,22 @@
+.totalSale {
+  width: 100%;
+}
+
+.totalSale h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 5px 10px;
+}
+
+.totalSale h3 div {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+}
